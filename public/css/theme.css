@@ -1,0 +1,73 @@
+@import url("logo/logo.css");
+@import url("nav/nav.css");
+@import url("tile/tile.css");
+
+html{
+  background-color: rgba(50, 100, 50, 1);
+    background-image: url("img/background.jpg");
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-repeat: repeat;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.head{
+  text-decoration: underline;
+  padding: 10px;
+  display: block;
+  
+}
+.page.head{
+  font-size: 2em;
+  margin: 10px;
+}
+
+.sub{
+  font-size: 1.5em;
+}
+.pool{
+  box-shadow: inset 0px 0px 20px 5px black;
+  border: 3px black solid;
+}
+
+.slam{
+  width: 100%;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 0px 30px 0px black;
+}
+
+.slam>.logo{
+  margin: auto;
+}
+
+.content{
+  width: 100%;
+  margin: auto;
+  color: white;
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.05em;
+  text-shadow: pink 0px 0px 2px;
+  text-align: center;
+}
+
+.content>.post{
+  margin: 5px auto;
+  box-shadow: inset 0px 0px 10px 1px black;
+  padding: 10px;
+}
+.content>.post>*{
+  margin: 10px auto;
+}
+
+
+.slam>.nav{
+  width: 100%;
+  background-color: black;
+  font-family: 'Lemon', cursive;
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+.thumb{
+  max-width: 250px;
+  mim-width: 250px;
+  max-height: 250px;
+  height: 100vh;
+  margin: auto;
+}
+
+.tile{
+  min-width: 300px;
+  text-align: center;
+}
+
+.htiled>.tile{
+  margin: auto;
+}
+
+.htiled>*{
+  display: block;
+  flex: 1;
+}
+
+.htiled{
+ display: flex;
+  flex-wrap: wrap;
+}

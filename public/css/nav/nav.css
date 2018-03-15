@@ -1,0 +1,24 @@
+.nav.hori{
+  display: flex;
+}
+
+.nav.hori>a{
+  flex: 1;
+}
+
+.nav>a, a{
+  color: white;
+  text-decoration: none;
+  transition: font-size 0.2s, color 0.2s;
+  font-size: 1em;
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav>a:hover, a:hover{
+  font-size: 0.9em;
+  color: gold !important;
+}
+
