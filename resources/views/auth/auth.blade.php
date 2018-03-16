@@ -1,7 +1,7 @@
-@extends('welcome')
+@extends('layouts.app')
 
 @section('head')
-    <link rel='stylesheet' type='text/css' href='css/auth.css'>
+    <link rel='stylesheet' type='text/css' href='/css/auth.css'>
 @endsection
 
 @section('content')

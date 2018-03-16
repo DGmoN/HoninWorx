@@ -11,10 +11,12 @@
 |
 */
 
-Route::get('/gallery', "HomeController@index")->name("gallery");
+Route::get('/gallery', "HomeController@view_art")->name("gallery");
 Route::get('/hire', "HomeController@index")->name("hire");
-Route::get('/vids', "HomeController@index")->name("vids");
-
-Auth::routes();
-
+Route::get('/vids', "HomeController@view_videos")->name("vids");
 Route::get('/', 'HomeController@index')->name('home');
+Route::any('/settings', 'admin@view_dash')->name('settings');
+Route::any('/post/create', 'admin@make_post')->name('make_post');
+Route::get('/post/{id}', 'HomeController@view_post')->name('view_post');
+Auth::routes();
+Route::get('/logout', 'HomeController@logout')->name('logout');

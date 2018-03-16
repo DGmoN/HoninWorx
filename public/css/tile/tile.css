@@ -1,9 +1,15 @@
 .thumb{
+  width: auto;
   max-width: 250px;
-  mim-width: 250px;
   max-height: 250px;
   height: 100vh;
   margin: auto;
+}
+
+.thumb.big{
+  max-width: unset;
+  max-height: 400px;
+  height: 100vh;
 }
 
 .tile{

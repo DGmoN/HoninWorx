@@ -2,7 +2,7 @@
 
 @section('form')
 
-      <form id='login_form' class='cstack pool' method='post' target="{{route("register")}}">
+      <form id='login_form' class='cstack pool' method='post'>
         {{ csrf_field() }}
         <h2 class="page head">Register:</h2>
         @if(Session::has('message'))

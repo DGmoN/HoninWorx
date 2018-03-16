@@ -2,15 +2,9 @@
 
 @section('form')
 
-      <form id='login_form' class='cstack pool' method='post' target='{{route("login")}}'>
+      <form id='login_form' class='cstack pool' method='post'>
         {{ csrf_field() }}
         <h2 class="page head">Please sign in</h2>
-        @if(Session::has('message'))
-            <div class="alert-{{ Session::get('status') }}">
-                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                {{ Session::get('message') }}
-            </div>
-        @endif
         <label for="email" class="sr-only">Email address</label>
         @if ($errors->has('email'))
             <span class="error">

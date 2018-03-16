@@ -10,6 +10,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lemon|Lobster+Two:400i|Old+Standard+TT:400i" rel="stylesheet">
+        <script src='js/jquery.js'></script>
         @yield('head')
         <link rel="stylesheet" href="/css/theme.css" />
     </head>

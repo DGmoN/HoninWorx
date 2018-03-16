@@ -22,3 +22,37 @@
   color: gold !important;
 }
 
+.auth.btn{
+  font-family: inherit;
+  text-shadow: inherit;
+  font-size: inherit;
+  color: white;
+  text-decoration: none;
+  width: 75%;
+  margin: 7px auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: font-size 0.2s, color 0.2s, box-shadow 0.5s, background-color 0.5s, text-shadow 0.1s !important;;
+  box-shadow: 0px 5px 1px 0px rgba(255, 255, 255, 0.2);
+}
+
+.auth.btn:active{
+  text-shadow: none;
+  font-size: 1em;
+  box-shadow: 0px 0px 0px 0px black !important;;
+  color: white !important;
+}
+
+.auth.btn.facebook{
+  background-color: RGB(59, 89, 152);
+}
+
+.auth.btn.twitter{
+  background-color: RGB(0, 172, 237);
+}
+
+.auth.btn.github{
+  background-color: black;
+}
+.auth.btn.google{
+  background-color: #db3236;
+}

@@ -1,4 +1,4 @@
-#login_form{
+#login_form, .cstack{
   max-width: 500px;
 }
 
@@ -16,14 +16,20 @@
 }
 
 .cstack>*{
-  display: block;
+  display: block !important;
   margin: 0 auto;
 }
 .cstack{
   width: auto;
   text-align: center;
   padding-bottom: 20px;
+  margin: auto;
 }
+
+textarea{
+  width: 90% !important;
+}
+
 input.auth{
   padding: 10px;
   box-shadow: inset 1px -1px 4px 0px black;

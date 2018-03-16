@@ -9,7 +9,12 @@
     @guest
       <a href="{{ route('login') }}">Login</a>
     @else
-      <a href="{{ Auth::logout()}}">Logout</a>
+      <a href="{{ route('logout') }}">Logout</a>
+      @if($usr = Auth::user())
+        @if($usr->isAdmin())
+          <a href="{{ route('settings')}}">Settings</a>
+        @endif
+      @endif
     @endif
   </nav>
 </header>
