@@ -17,7 +17,7 @@ class CreateArtifactsTable extends Migration
             $table->increments('id');
             $table->string('name', 100);
             $table->string('type', 10);
-            $table->text('description');
+            $table->text('meta');
             $table->text('thumb');
             $table->timestamps();
         });

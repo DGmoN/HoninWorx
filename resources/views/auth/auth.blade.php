@@ -7,7 +7,9 @@
 @section('content')
 <div class="post">
   @yield("form")
+  <!--
   <p class="sub head">Or Use Social Login</p>
   @include('elements.socials')
+-->
 </div>
 @endsection

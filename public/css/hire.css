@@ -1,0 +1,24 @@
+.example_panel{
+  display: flex;
+  width: 100%;
+}
+
+.example_panel>div:hover{
+  flex: 9;
+}
+
+.example_panel>div{
+  flex: 1;
+  transition: flex 0.25s;
+  display: inline-block;
+  min-height: 300px;
+  min-width: 5%;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  background-position: left center;
+  background-size: cover;
+}
+
+#commissions{
+  width: 50%;
+}

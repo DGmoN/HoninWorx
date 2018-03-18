@@ -1,0 +1,37 @@
+.post{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post>.main_content{
+  min-width: 65%;
+}
+.post>.main_content>img{
+  width: 700px;
+  box-shadow: 0px 0px 100px 0px black;
+  overflow: hidden;
+}
+
+.post>.meta{
+  text-align: left;
+  padding: 10px;
+  flex: 1;
+  min-width: 30%;
+}
+
+.meta>.meta.head{
+  display: block;
+  width: 75%;
+  text-decoration: none;
+}
+
+.meta>.tag_list{
+  display: flex;
+  margin: auto;
+}
+
+.meta>.head>hr{
+  width: 100%;
+  display: block;
+  margin: 0;
+}

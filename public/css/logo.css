@@ -1,0 +1,11 @@
+.logo{
+  background-image: URL("logo.svg");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: visible;
+  max-width: 500px !important;
+  width: 100vw;
+  max-height: 200px !important;
+  height: 100vw;
+}

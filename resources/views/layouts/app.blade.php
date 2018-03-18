@@ -10,7 +10,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lemon|Lobster+Two:400i|Old+Standard+TT:400i" rel="stylesheet">
-        <script src='js/jquery.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         @yield('head')
         <link rel="stylesheet" href="/css/theme.css" />
     </head>
@@ -20,12 +20,12 @@
         @yield("content")
 
       </article>
-      <footer class='htiled'>
+      <footer class='htiled slam'>
         <p class='tile'>
           Built using Laravel
         </p>
         <p class='tile'>
-          All artowrk showcased on this website is owned by me. You are not allowed to claim any of it as your own.
+          All artowrk showcased on this website is owned by William. You are not allowed to claim any of it as your own.
         </p>
       </footer>
     </body>

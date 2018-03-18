@@ -50,14 +50,17 @@ input.auth{
   margin: 7px auto;
   background-color: rgba(255, 255, 255, 0.05);
   transition: font-size 0.2s, color 0.2s, box-shadow 0.5s, background-color 0.5s, text-shadow 0.1s !important;;
-  box-shadow: 0px 5px 1px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: none !important;
 }
 
 .auth.btn:active{
   text-shadow: none;
   font-size: 1em;
-  box-shadow: 0px 0px 0px 0px black !important;;
   color: white !important;
+}
+
+.auth.btn:hover{
+  transform: none;
 }
 
 .auth.btn.facebook{

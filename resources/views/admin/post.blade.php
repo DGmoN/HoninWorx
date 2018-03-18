@@ -23,8 +23,8 @@
         </select>
         <lable for="thumbnail">Thumbnail</lable>
         <input type='file' name='thumb' id='thumbnail'>
-        <lable for="det">Details</lable>
-        <textarea name='desc' id='det' form='post'>
+        <lable for="det">Meta Data Json</lable>
+        <textarea name='meta' id='det' form='post'>
         </textarea>
       </div>
       <input type='submit' class='auth btn' value='submit'>

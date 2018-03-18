@@ -56,4 +56,8 @@ class HomeController extends Controller
       Auth::logout();
       return redirect('/');
     }
+
+    public function view_hire(){
+      return view('hire');
+    }
 }

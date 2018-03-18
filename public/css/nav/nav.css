@@ -6,10 +6,10 @@
   flex: 1;
 }
 
-.nav>a, a{
+.btn{
   color: white;
   text-decoration: none;
-  transition: font-size 0.2s, color 0.2s;
+  transition: transform 0.5s, color 0.2s;
   font-size: 1em;
   display: block;
   padding: 10px;
@@ -17,8 +17,8 @@
   text-decoration: none;
 }
 
-.nav>a:hover, a:hover{
-  font-size: 0.9em;
+.btn:hover{
+  transform: scale(0.9);
   color: gold !important;
 }
 

@@ -19,10 +19,10 @@
             </span>
         @endif
         <input class='auth' type='password' placeholder="Password" id='password' name="password" required>
-        <input type='submit' value="Sign in" class="auth btn">
+        <input class='auth btn' type='submit' value="Sign in" class="auth btn">
         <span>{{ __('Remember Me') }}<input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> </span>
-        <p><a href="{{ url('#') }}">Forgot password?</a></p>
-        <p><a href="{{ url('register') }}">Register</a></p>
+        <!--<p><a  href="{{ url('#') }}">Forgot password?</a></p>
+        <p><a href="{{ url('register') }}">Register</a></p>-->
       </form>
 
 @stop

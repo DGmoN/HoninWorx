@@ -15,10 +15,18 @@ body{
   margin: 0px;
 }
 .showcase{
- background-position: center top;
- background-size: 150%;
- text-shadow: black 1px 1px 1px;
+  color: white;
+  text-decoration: none;
+  background-position: center top;
+  background-size: 150%;
+  text-shadow: black 1px 1px 1px;
   font-size: 1.65em;
+  
+}
+
+.showcase:hover{
+  font-size: 1.2em;
+  
 }
 
 .head{
@@ -46,15 +54,21 @@ body{
   font-size: 1.5em;
 }
 .pool{
-  box-shadow: inset 0px 0px 20px 5px black;
+  box-shadow: inset 0px 0px 60px 20px black;
   border: 3px black solid;
+  transition: font-size 0.5s, box-shadow 0.2s;
+}
+
+.pool:hover{
+  box-shadow: inset 0px 0px 5px 5px black;
 }
 
 .slam{
   width: 100%;
   margin: 0px;
-  background-color: rgba(0, 0, 0, 0.4);
-  box-shadow: inset 0px 0px 30px 0px black;
+  background-image: url("img/background.jpg");
+  background-attachment: fixed;
+  box-shadow: 0px 0px 20px 1px black;
 }
 
 .slam>.logo{
@@ -73,7 +87,7 @@ body{
 
 .content>.post{
   margin: 5px auto;
-  box-shadow: inset 0px 0px 10px 1px black;
+  /*box-shadow: inset 0px 0px 10px 1px black;*/
   padding: 10px;
 }
 .content>.post>*{
@@ -97,4 +111,17 @@ body{
   background-color: black;
   font-family: 'Lemon', cursive;
   text-align: center;
+}
+footer{
+  width: 100%;
+  margin: auto;
+  color: white;
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.05em;
+  text-shadow: pink 0px 0px 2px;
+  text-align: center;
+}
+
+footer>.tile{
+  padding: 10px;
 }

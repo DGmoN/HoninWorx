@@ -4,6 +4,7 @@
   max-height: 250px;
   height: 100vh;
   margin: auto;
+  display:block;
 }
 
 .thumb.big{

@@ -15,7 +15,7 @@
       {{ csrf_field() }}
       <div class='cstack'>
         @php $state = \App\state::get_state("commission") @endphp
-        <lable for="commission">Contracts</lable>
+        <lable for="commission">Commissions</lable>
         <input class='auth' id='commission' type='checkbox' name='commission' {{ $state ? 'checked' : '' }}>
         @php $state = \App\state::get_state("Contract") @endphp
         <lable for="Contract">Contracts</lable>

@@ -38,13 +38,13 @@ class admin extends Controller
               'name' => 'required|string|max:255|required',
               'type' => 'same:artwork|same:template|same:video|required',
               'thumb' => 'file|image|required',
-              'desc'  => 'required'
+              'meta'  => 'required'
           ]))
           return  view("admin.post", ["Failure"=>"Failed to post"]);
       $Art = new artifact();
       $Art->name = $e->get('name');
       $Art->type = $e->get('type');
-      $Art->description = $e->get('desc');
+      $Art->meta = $e->get('meta');
       $Art->thumb = Storage::putFile('public', $e->file('thumb'));
       $Art->save();
       return view("admin.post");
